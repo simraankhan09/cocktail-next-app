@@ -8,10 +8,26 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      screens: {
+        xs: "475px",
       },
+      colors: {
+        primary: {
+          DEFAULT: "#FF8000",
+        },
+        black: {
+          "100": "#333333",
+          "200": "#141413",
+          "300": "#7D8087",
+          DEFAULT: "#000000",
+        },
+        white: {
+          DEFAULT: "#FFFFFF",
+        },
+      },
+    },
+    fontFamily: {
+      roboto: ["var(--font-roboto)"],
     },
   },
   plugins: [],
